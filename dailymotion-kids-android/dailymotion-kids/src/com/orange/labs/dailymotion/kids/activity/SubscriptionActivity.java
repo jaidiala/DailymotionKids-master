@@ -67,6 +67,7 @@ public class SubscriptionActivity extends SherlockActivity {
 					Toast.makeText(getApplicationContext(),
 							getString(R.string.sub_purchased),
 							Toast.LENGTH_LONG).show();
+					
 				} else {
 					generateSubscribeDialog();
 				}
